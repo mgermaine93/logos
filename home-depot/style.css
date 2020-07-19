@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Bundy-Yellow-Solid";
+  src: url("font/Bundy-Yellow-Solid.ttf.woff") format("woff"),
+    url("font/Bundy-Yellow-Solid.ttf.svg#Bundy-Yellow-Solid") format("svg"),
+    url("font/Bundy-Yellow-Solid.ttf.eot"),
+    url("font/Bundy-Yellow-Solid.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#logo-box {
+  background-color: #ff6600;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: Bundy-Yellow-Solid, cursive;
+  font-weight: bold;
+}
