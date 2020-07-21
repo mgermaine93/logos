@@ -10,13 +10,38 @@
 
 #logo-box {
   background-color: #ff6600;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
+  height: 500px;
+  width: 500px;
+  text-align: center;
 }
 
-h1 {
+#logo-box #words p {
+  margin: auto;
+  /* line-height: 2px; */
+  vertical-align: middle;
+}
+
+#words {
+  padding-top: 100px;
+  padding-right: 100px;
+}
+
+#the {
+  font-size: 75px;
+  transform: rotate(-45deg);
+}
+
+#home {
+  font-size: 120px;
+  transform: rotate(-45deg);
+}
+
+#depot {
+  font-size: 75px;
+  transform: rotate(-45deg);
+}
+
+p {
   color: #ffffff;
   font-family: Bundy-Yellow-Solid, cursive;
   font-weight: bold;
