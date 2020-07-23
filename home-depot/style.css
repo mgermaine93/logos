@@ -15,34 +15,35 @@
   text-align: center;
 }
 
-#logo-box #words p {
-  margin: auto;
-  /* line-height: 2px; */
-  vertical-align: middle;
-}
-
 #words {
   padding-top: 100px;
   padding-right: 100px;
 }
 
-#the {
-  font-size: 75px;
+.word {
+  margin: auto;
   transform: rotate(-45deg);
-}
-
-#home {
-  font-size: 120px;
-  transform: rotate(-45deg);
-}
-
-#depot {
-  font-size: 75px;
-  transform: rotate(-45deg);
-}
-
-p {
+  /* padding: 20px; */
   color: #ffffff;
   font-family: Bundy-Yellow-Solid, cursive;
   font-weight: bold;
+}
+
+#the {
+  font-size: 90px;
+  padding-right: 60px;
+}
+
+#home {
+  font-size: 140px;
+  margin-left: -20px;
+  margin-top: 25px;
+  padding-right: 485px;
+  /* padding-top: 5px; */
+}
+
+#depot {
+  font-size: 90px;
+  padding-left: 162px;
+  padding-top: 55px;
 }
